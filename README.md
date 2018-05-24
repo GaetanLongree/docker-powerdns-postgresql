@@ -4,9 +4,10 @@ Postgresql image with PowerDNS schema integrated
 This container creates the default schema provided by PowerDNS for the PostgreSQL backend.
 
 Additionally a user is created with full rights to the tables and sequences:
-**Database:**pdns
-**User:**pdns
-**Password:**V3ryS3cr3tP4$$w0rd
+
+**Database:** pdns<br>
+**User:** pdns<br>
+**Password:** V3ryS3cr3tP4$$w0rd<br>
 
 The arguments to use are the same as for the [official postgres docker image](https://hub.docker.com/_/postgres/).
 

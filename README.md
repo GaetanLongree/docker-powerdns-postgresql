@@ -25,5 +25,5 @@ docker run --detach \
 --env PGDATA=/var/lib/postgresql/data/pgdata \
 --volume /share/pdns/var/lib/postgresql/data/pgdata:/var/lib/postgresql/data/pgdata \
 --volume /share/pdns/etc/postgresql:/etc/postgresql \
-cajetan19/powerdns-postgresql
+cajetan19/postgresql-powerdns
 ```

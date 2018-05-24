@@ -17,7 +17,7 @@ This container works along with the [cajetan19/powerdns-pgsql](https://hub.docke
 
 ## Sample `docker run`
 ```
-docker run --detach\
+docker run --detach \
 -p 5432:5432 \
 --name pdns-pgsql \
 --env POSTGRES_PASSWORD=P@$$w0rd \
